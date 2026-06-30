@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>[Insert Family Name Here] | Family Website</title>
+    <meta
+      name="description"
+      content="[Insert short family website description here - 140 to 160 characters recommended.]"
+    />
+
+    <meta property="og:title" content="[Insert Family Name Here]" />
+    <meta
+      property="og:description"
+      content="[Insert social sharing description here.]"
+    />
+    <meta property="og:type" content="website" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header" id="top">
+      <div class="container nav-wrap">
+        <a class="brand" href="#top" aria-label="Go to homepage">
+          [Insert Family Name Here]
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Toggle navigation"
+        >
+          Menu
+        </button>
+
+        <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#highlights">Highlights</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section id="home" class="hero reveal">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow">[Insert family motto, theme, or welcome label]</p>
+            <h1>[Insert homepage headline here]</h1>
+            <p class="hero-text">
+              [Insert a short welcome paragraph about your family. Keep this warm,
+              simple, and 1 to 3 sentences.]
+            </p>
+            <div class="hero-actions">
+              <a class="btn" href="#about">Learn More</a>
+              <a class="btn btn-secondary" href="#contact">Contact Us</a>
+            </div>
+          </div>
+
+          <div class="card hero-card" aria-label="Template guidance card">
+            <h2>Quick Setup Checklist</h2>
+            <ul>
+              <li>Replace all text inside [brackets].</li>
+              <li>Add family photos where indicated.</li>
+              <li>Update contact placeholders in Contact section.</li>
+              <li>Test on mobile and desktop before publishing.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section reveal">
+        <div class="container section-grid">
+          <div>
+            <h2>About Our Family</h2>
+            <p>
+              [Insert your family story here. Suggested: who you are, what this
+              website is for, and what visitors can expect.]
+            </p>
+            <p>
+              [Optional: Insert a second paragraph with traditions, values, or
+              background.]
+            </p>
+          </div>
+
+          <aside class="card" aria-label="About section input guide">
+            <h3>Information to provide</h3>
+            <ul>
+              <li>Family name</li>
+              <li>Short family introduction</li>
+              <li>Values or interests</li>
+              <li>Preferred tone (formal, warm, casual)</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section id="highlights" class="section section-alt reveal">
+        <div class="container">
+          <h2>Family Highlights</h2>
+          <p class="section-intro">
+            [Insert a short line introducing these highlights.]
+          </p>
+
+          <div class="cards-grid">
+            <article class="card">
+              <h3>[Insert Highlight Title 1]</h3>
+              <p>
+                [Insert short description for highlight 1 — e.g., annual trip,
+                celebration, milestone.]
+              </p>
+            </article>
+
+            <article class="card">
+              <h3>[Insert Highlight Title 2]</h3>
+              <p>
+                [Insert short description for highlight 2 — e.g., hobbies,
+                achievements, projects.]
+              </p>
+            </article>
+
+            <article class="card">
+              <h3>[Insert Highlight Title 3]</h3>
+              <p>
+                [Insert short description for highlight 3 — e.g., family updates
+                or upcoming plans.]
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section reveal">
+        <div class="container section-grid">
+          <div>
+            <h2>Contact Us</h2>
+            <p><strong>Contact person:</strong> Gaby Hadad</p>
+            <p><strong>Email:</strong> insert email here</p>
+            <p><strong>Phone:</strong> insert number here</p>
+            <p><strong>Location (optional):</strong> [Insert city/state here]</p>
+            <p>
+              <strong>Preferred contact method:</strong>
+              [Insert preference: email / phone / either]
+            </p>
+          </div>
+
+          <aside class="card" aria-label="Contact section input guide">
+            <h3>Contact fields to complete</h3>
+            <ul>
+              <li>Email address</li>
+              <li>Phone number</li>
+              <li>Location (optional)</li>
+              <li>Preferred contact method</li>
+              <li>Best contact hours (optional)</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>
+          &copy; <span id="year"></span> [Insert Family Name Here]. All rights
+          reserved.
+        </p>
+        <a href="#top" class="back-to-top" aria-label="Back to top">Back to top ↑</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
